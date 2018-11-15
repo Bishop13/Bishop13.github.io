@@ -1,0 +1,62 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  font-family: georgia, sans-serif;
+  background-image: url("barbell.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container {
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+  
+  }
+
+  .title {
+    text-align: center;
+    height: 50%;
+    align-self: center;
+  }
+
+
+  .butt {
+    text-align: center;
+    height: 50%;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+.button {
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#mc_embed_signup {
+  align-self: center;
+}
+
+.butt:hover {
+  background-color: red;
+  border-color: red;
+
+}
